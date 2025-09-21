@@ -1,0 +1,70 @@
+# Build directories
+build/
+cmake-build-*/
+out/
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+CMakeUserPresets.json
+
+# Conan generated files
+*.cmake
+!CMakeLists.txt
+!cmake/*.cmake
+!simulator/CMakeLists.txt
+conan*
+!conanfile.txt
+deactivate_*.sh
+cmakedeps_macros.cmake
+conandeps_legacy.cmake
+module-*.cmake
+*-Target-*.cmake
+*-release-*.cmake
+*-x86_64-*.cmake
+*Config.cmake
+*ConfigVersion.cmake
+*Targets.cmake
+*-config.cmake
+*-config-version.cmake
+Find*.cmake
+!cmake/Find*.cmake
+
+# Object files
+*.o
+*.obj
+
+# Libraries
+*.a
+*.so
+*.dylib
+
+# Executables
+*.exe
+
+# IDE files
+.vscode/
+.idea/
+.aider*
+
+# Conan specific
+conan.lock
+conanbuildinfo.cmake
+conaninfo.txt
+graph_info.json
+
+# Test executables at root
+test_*.cpp
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary
+/tmp/
+*.tmp

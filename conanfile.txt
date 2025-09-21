@@ -1,0 +1,8 @@
+[requires]
+fmt/10.2.1
+gtest/1.14.0
+ouster_sdk/0.13.0
+
+[generators]
+CMakeDeps
+CMakeToolchain
